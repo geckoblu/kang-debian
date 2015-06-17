@@ -1,0 +1,20 @@
+Source: kang
+Section: python
+Priority: optional
+Maintainer: Alessio Piccoli <alepic@geckoblu.net>
+Build-Depends: debhelper (>= 8), python (>= 2.7)
+Standards-Version: 3.9.5
+Homepage: http://www.geckoblu.net/kang
+Vcs-Git: https://github.com/geckoblu/kang.git
+
+Package: kang
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-qt4 (>= 4.10)
+Description: Visual regular expression editor
+ Kang is a Python GUI utility for creating, testing and debugging regular
+ expressions for the Python programming language.
+ Kang should aid any developer to efficiently and effortlessly develop regular
+ expressions in Python.
+ Since Python's implementation of regular expressions is based on the PCRE 
+ standard,  Kang should benefit developers in other programming languages that
+ also adhere to the PCRE standard (Perl, PHP, etc...).
